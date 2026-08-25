@@ -5,8 +5,8 @@
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>БарсикВПН</title>
 <style>
-body{font-family:system-ui,sans-serif;max-width:760px;margin:40px auto;padding:0 20px;line-height:1.5}
-.card{border:1px solid #ddd;border-radius:16px;padding:24px}
+body{font-family:system-ui,sans-serif;max-width:720px;margin:50px auto;padding:0 20px}
+.card{border:1px solid #ddd;border-radius:18px;padding:28px}
 button{padding:12px 18px;border:0;border-radius:10px;cursor:pointer}
 code{word-break:break-all}
 </style>
@@ -14,12 +14,17 @@ code{word-break:break-all}
 <body>
 <div class="card">
 <h1>🐱 БарсикВПН</h1>
-<p>Подписка для Happ.</p>
-<p><b>Лимит:</b> 9999 (указан как пользовательский параметр проекта; сам статический сайт не ограничивает число подключений).</p>
-<p><b>Ссылка подписки:</b> после публикации этого сайта используй URL файла <code>subscription.txt</code>, а не главной страницы.</p>
-<p>Например: <code>https://ВАШ-ДОМЕН/subscription.txt</code></p>
-<button onclick="navigator.clipboard.writeText(location.href.replace(/\/$/,'')+'/subscription.txt')">Скопировать ссылку подписки</button>
-<p><small>В Happ: «Добавить подписку» → вставить ссылку.</small></p>
+<p>Подписка для Happ</p>
+<p>Серверов: <b>5</b></p>
+<p>Лимит проекта: <b>9999</b></p>
+<p>После публикации используй ссылку:</p>
+<code id="url"></code>
+<br><br>
+<button onclick="navigator.clipboard.writeText(location.origin+location.pathname.replace(/\/$/,'')+'/subscription.txt')">Скопировать ссылку подписки</button>
+<script>
+const u=location.origin+location.pathname.replace(/\/$/,'')+'/subscription.txt';
+document.getElementById('url').textContent=u;
+</script>
 </div>
 </body>
 </html>
