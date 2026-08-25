@@ -1,0 +1,9 @@
+#profile-title: БарсикВПН
+#announce: БарсикВПН
+#subscription-auto-update-enable: 1
+#profile-update-interval: 24
+vless://3497fe81-2005-4416-a26f-5a651f86eac0@109.121.44.82:43435?encryption=none&security=reality&sni=www.amd.com&fp=firefox&pbk=b4n1pcO8ST3JkGtj8YymXVrW17LEe2EHec5wY7hMMR4&sid=2f86c1d4a9e53b7c&type=grpc&serviceName=cloud#%20%F0%9F%87%B3%F0%9F%87%B1%20%D0%9D%D0%B8%D0%B4%D0%B5%D1%80%D0%BB%D0%B0%D0%BD%D0%B4%D1%8B%20%20%E2%9A%A1%EF%B8%8F%20%231
+vless://3497fe81-2005-4416-a26f-5a651f86eac0@109.121.44.91:443?encryption=none&security=reality&sni=www.amd.com&fp=firefox&pbk=b4n1pcO8ST3JkGtj8YymXVrW17LEe2EHec5wY7hMMR4&sid=a7b2c9d4&type=tcp&flow=xtls-rprx-vision#%20%F0%9F%87%B3%F0%9F%87%B1%20%D0%9D%D0%B8%D0%B4%D0%B5%D1%80%D0%BB%D0%B0%D0%BD%D0%B4%D1%8B%20%20%E2%9A%A1%EF%B8%8F%20%232
+vless://3497fe81-2005-03e7-a26f-5a651f86eac0@91.233.8.11:443?encryption=none&security=reality&sni=tnt-cloud.ru&fp=firefox&pbk=b4n1pcO8ST3JkGtj8YymXVrW17LEe2EHec5wY7hMMR4&sid=a7b2c9d4&type=tcp&flow=xtls-rprx-vision#%F0%9F%87%A9%F0%9F%87%AA%20%D0%93%D0%B5%D1%80%D0%BC%D0%B0%D0%BD%D0%B8%D1%8F%20%E2%9A%A1%EF%B8%8F%20%28%D0%A2%D0%9E%D0%9F%29
+vless://3497fe81-2005-4416-a26f-5a651f86eac0@62.132.117.11:43439?encryption=none&security=reality&sni=cdn.24cloudplay.ru&fp=firefox&pbk=b4n1pcO8ST3JkGtj8YymXVrW17LEe2EHec5wY7hMMR4&sid=39ad36226f3abec8&type=grpc&serviceName=streaming#%F0%9F%87%B5%F0%9F%87%B1%20%D0%9F%D0%BE%D0%BB%D1%8C%D1%88%D0%B0%20%20%E2%9A%A1%EF%B8%8F
+vless://3497fe81-2005-4416-a26f-5a651f86eac0@91.233.8.26:443?encryption=none&security=reality&sni=tnt-cloud.ru&fp=firefox&pbk=b4n1pcO8ST3JkGtj8YymXVrW17LEe2EHec5wY7hMMR4&sid=0a4b7c3d&type=tcp&flow=xtls-rprx-vision#%F0%9F%87%A9%F0%9F%87%AA%20%D0%93%D0%B5%D1%80%D0%BC%D0%B0%D0%BD%D0%B8%D1%8F%20%20%E2%9A%A1%EF%B8%8F

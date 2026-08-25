@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>БарсикВПН</title>
+<style>
+body{font-family:system-ui,sans-serif;max-width:720px;margin:50px auto;padding:0 20px}
+.card{border:1px solid #ddd;border-radius:18px;padding:28px}
+button{padding:12px 18px;border:0;border-radius:10px;cursor:pointer}
+code{word-break:break-all}
+</style>
+</head>
+<body>
+<div class="card">
+<h1>🐱 БарсикВПН</h1>
+<p>Подписка для Happ</p>
+<p>Серверов: <b>5</b></p>
+<p>Лимит проекта: <b>9999</b></p>
+<p>После публикации используй ссылку:</p>
+<code id="url"></code>
+<br><br>
+<button onclick="navigator.clipboard.writeText(location.origin+location.pathname.replace(/\/$/,'')+'/subscription.txt')">Скопировать ссылку подписки</button>
+<script>
+const u=location.origin+location.pathname.replace(/\/$/,'')+'/subscription.txt';
+document.getElementById('url').textContent=u;
+</script>
+</div>
+</body>
+</html>
