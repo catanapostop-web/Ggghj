@@ -1,0 +1,39 @@
+{
+  "servers": [
+    {
+      "protocol": "vless",
+      "server": "91.99.62.52",
+      "port": 443,
+      "uuid": "fd4b654f-9ae2-42c5-977b-6aa54e8e9a83",
+      "security": "none",
+      "network": "tcp",
+      "headerType": "http",
+      "httpHost": "store.steampowered.com",
+      "path": "/path"
+    },
+    {
+      "protocol": "shadowsocks",
+      "server": "38.180.92.242",
+      "port": 32245,
+      "password": "pFNN9jKe8jwD",
+      "cipher": "chacha20-ietf-poly1305",
+      "network": "tcp"
+    },
+    {
+      "protocol": "shadowsocks",
+      "server": "51.77.225.200",
+      "port": 8388,
+      "password": "zRZNBszYyWo5",
+      "cipher": "chacha20-ietf-poly1305",
+      "network": "tcp"
+    },
+    {
+      "protocol": "vless",
+      "server": "67.220.95.3",
+      "port": 18000,
+      "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
+      "security": "aes-128-gcm",
+      "network": "tcp"
+    }
+  ]
+}
