@@ -10,7 +10,6 @@ vless://0e50a969-ecc2-482b-9d66-47f772974828@sync.strashirdi.com:2027?security=r
 vless://0e50a969-ecc2-482b-9d66-47f772974828@46.8.209.184:443?security=reality&sni=tele2.ru&fp=qq&pbk=8ORQEMzxI-uibnFMYAgWrYNYxfLQrcRA5QDzw6JemE4&sid=84f843a0088b72a8&type=tcp&flow=xtls-rprx-vision#4G Обход глушилки 🇱🇹
 hysteria2://0e50a969-ecc2-482b-9d66-47f772974828@docs.strashirdi.com:443?security=tls&sni=docs.strashirdi.com&fp=chrome&alpn=h3#🇨🇿 Чехия_Hysteria2
 vless://e4514801-0d5a-42ba-869f-39bd605aef9e@35.177.145.91:22222?encryption=none&security=none&type=tcp#🇬🇧 Великобритания
-vless://f55a75a7-5aa6-4df7-814a-99da0edb5c86@104.21.55.229:8880?security=none&type=ws&host=autumn-cloud-ab5e.229-601.workers.dev&path=/#🌐 Обход
 vless://e25486c7-3342-4777-a82d-89d485f844dc@45.13.151.46:48689?security=none&type=httpupgrade&host=www.filimo.com&path=/host#🛡️ Обход HTTPUpgrade
 vless://06c4e938-2954-478f-a870-ca1b163e30e9@94.183.170.135:8443?security=tls&sni=estproxy4.lockdwn.com&fp=chrome&type=tcp#🇪🇪 Эстония
 vless://8fb65472-5957-4f64-ba2d-b5812b2f155a@149.130.175.148:62145?security=none&type=tcp#🇨🇴 Колумбия
