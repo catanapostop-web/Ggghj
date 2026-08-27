@@ -12,4 +12,5 @@ hysteria2://0e50a969-ecc2-482b-9d66-47f772974828@docs.strashirdi.com:443?securit
 vless://e4514801-0d5a-42ba-869f-39bd605aef9e@35.177.145.91:22222?encryption=none&security=none&type=tcp#🇬🇧 Великобритания
 vless://e25486c7-3342-4777-a82d-89d485f844dc@45.13.151.46:48689?security=none&type=httpupgrade&host=www.filimo.com&path=/host#🛡️ Обход HTTPUpgrade
 vless://06c4e938-2954-478f-a870-ca1b163e30e9@94.183.170.135:8443?security=tls&sni=estproxy4.lockdwn.com&fp=chrome&type=tcp#🇪🇪 Эстония
+vless://33e6d4f8-5bd2-4b9c-8123-3c9d9d94514d@188.114.97.6:443?security=tls&type=ws&path=%2Fvl%2FOo7KuQEty2wqQDXCPlgaK8RdPqZflNY%3Fed%3D2560&host=6q7ur2wcmgu9hymh-xzqg140tdp86.pages.dev&alpn=http%2F1.1&sni=6q7ur2wcmgu9hymh-xzqg140tdp86.pages.dev&fp=unsafe&encryption=none#🇫🇮 Финляндия 1
 vless://8fb65472-5957-4f64-ba2d-b5812b2f155a@149.130.175.148:62145?security=none&type=tcp#🇨🇴 Колумбия
