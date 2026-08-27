@@ -11,7 +11,7 @@ vless://16c50a3f-b9bd-45f5-9bcd-76bf878876f6@de.propollcenter.site:34156?encrypt
 vless://3497fe81-2005-4416-a26f-5a651f86eac0@109.121.44.93:443?security=reality&sni=www.amd.com&fp=firefox&pbk=b4n1pcO8ST3JkGtj8YymXVrW17LEe2EHec5wY7hMMR4&sid=e1f8a3b6&type=tcp&flow=xtls-rprx-vision#🇳🇱 Нидерланды
 vless://ae2009b9-76cb-4d18-8612-7515b2b84398@64.188.59.203:443?security=tls&sni=tg1.wba-pn.ru&fp=firefox&type=ws&host=tg1.wba-pn.ru&path=/&mode=packet-up#🛡️ Обход глушилки 🇳🇱
 vless://0e50a969-ecc2-482b-9d66-47f772974828@sync.strashirdi.com:2027?security=reality&sni=sync.strashirdi.com&fp=qq&pbk=8k8hWryC9EzWDNYm_sWy0jIX19gh3wpYazcT2HPdUB8&sid=b7f34354514146f9&type=xhttp&path=/api/v1/sync/&mode=auto#🛡️ Обход глушилки 🇩🇪
-vless://0e50a969-ecc2-482b-9d66-47f772974828@46.8.209.184:443?security=reality&sni=tele2.ru&fp=qq&pbk=8ORQEMzxI-uibnFMYAgWrYNYxfLQrcRA5QDzw6JemE4&sid=84f843a0088b72a8&type=tcp&flow=xtls-rprx-vision#4G Обход глушилки 🇱🇹
+hysteria2://0c78b433-e644-4249-9e56-86ab4c5106e2@ch.3301vpn.space:443?security=tls&sni=ch.3301vpn.space&fp=chrome&alpn=h3#🇨🇭%20Швейцария
 hysteria2://0e50a969-ecc2-482b-9d66-47f772974828@docs.strashirdi.com:443?security=tls&sni=docs.strashirdi.com&fp=chrome&alpn=h3#🇨🇿 Чехия_Hysteria2
 vless://cf990ae8-ee77-4436-aa3a-bbc2fb040c53@116.202.19.249:443?security=none&type=tcp&headerType=http&host=store.steampowered.com&path=/#🇩🇪 Германия_HTTP
 vless://e25486c7-3342-4777-a82d-89d485f844dc@45.13.151.46:48689?security=none&type=httpupgrade&host=www.filimo.com&path=/host#🛡️ Обход HTTPUpgrade
