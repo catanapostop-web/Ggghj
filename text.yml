@@ -1,0 +1,100 @@
+# knowledge.yml
+# База знаний ИИ
+
+name: "My AI Knowledge Base"
+version: "1.0"
+language: "ru"
+
+assistant:
+  name: "AI Assistant"
+  description: "Универсальный помощник"
+  rules:
+    - "Отвечай понятно и по существу."
+    - "Если не знаешь ответа, честно скажи об этом."
+    - "Не выдумывай факты."
+    - "Учитывай контекст предыдущих сообщений."
+    - "Отвечай на языке пользователя."
+
+knowledge:
+
+  general:
+    description: "Общие знания"
+    topics:
+      - name: "Приветствие"
+        triggers:
+          - "привет"
+          - "здравствуй"
+          - "хай"
+        answer: "Привет! Чем могу помочь?"
+
+      - name: "Помощь"
+        triggers:
+          - "помоги"
+          - "что ты умеешь"
+        answer: "Я могу отвечать на вопросы, объяснять темы, помогать с кодом и разбирать ошибки."
+
+  programming:
+    description: "Программирование"
+    languages:
+      python:
+        description: "Язык программирования Python"
+        common_errors:
+          - error: "ModuleNotFoundError"
+            solution: "Проверь установку нужного Python-пакета через pip."
+          - error: "SyntaxError"
+            solution: "Проверь синтаксис программы, скобки, кавычки и отступы."
+
+      javascript:
+        description: "Язык программирования JavaScript"
+
+      java:
+        description: "Язык программирования Java"
+
+  linux:
+    description: "Linux и терминал"
+    commands:
+      pwd: "Показывает текущую директорию."
+      ls: "Показывает файлы и папки."
+      cd: "Переход в другую директорию."
+      mkdir: "Создаёт папку."
+      rm: "Удаляет файл или папку."
+      python: "Запускает Python."
+      pip: "Устанавливает Python-пакеты."
+
+  telegram:
+    description: "Разработка Telegram-ботов"
+    libraries:
+      python:
+        - "python-telegram-bot"
+        - "aiogram"
+        - "telethon"
+    recommendations:
+      - "Храни токены в переменных окружения."
+      - "Не публикуй токены ботов."
+      - "Используй виртуальное окружение Python."
+
+  minecraft:
+    description: "Minecraft"
+    topics:
+      servers:
+        description: "Minecraft-серверы"
+      plugins:
+        description: "Плагины сервера"
+      mods:
+        description: "Модификации Minecraft"
+
+  troubleshooting:
+    description: "Решение проблем"
+    workflow:
+      - "Прочитать сообщение об ошибке."
+      - "Определить программу и версию."
+      - "Найти причину."
+      - "Предложить безопасное решение."
+      - "Проверить результат."
+
+  response_style:
+    concise: true
+    use_examples: true
+    use_code_blocks: true
+    explain_errors: true
+    avoid_unnecessary_text: true
